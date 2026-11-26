@@ -1,0 +1,19 @@
+wait_loaded
+wait 4
+# on the S11 curve near 2.04 GHz
+click 422 58
+wait 2
+expect markers 0
+keydown ctrl
+click 422 58
+keyup ctrl
+wait 3
+expect markers 1
+expect visible 1
+# the marker dot, then the first delete item of its menu
+rclick 422 58
+wait 4
+click 452 180
+wait 3
+expect markers 0
+quit

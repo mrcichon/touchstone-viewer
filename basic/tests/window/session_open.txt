@@ -1,0 +1,6 @@
+wait_loaded
+wait 6
+expect loaded 1
+expect visible 1
+expect markers 1
+quit

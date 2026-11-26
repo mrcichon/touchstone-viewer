@@ -1,0 +1,14 @@
+wait_loaded
+wait 4
+# the line sample of the legend entry
+click 1376 78
+wait 2
+expect visible 1
+key escape
+wait 2
+# the label of the legend entry
+click 1420 78
+wait 2
+expect visible 1
+expect loaded 1
+quit

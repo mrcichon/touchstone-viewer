@@ -1,0 +1,11 @@
+wait_loaded
+wait 4
+# on the S11 curve near 2.04 GHz
+keydown ctrl
+click 422 58
+keyup ctrl
+wait 3
+expect markers 1
+save_session test.tvsession
+wait 2
+quit

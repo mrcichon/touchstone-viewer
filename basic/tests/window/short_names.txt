@@ -1,0 +1,5 @@
+wait_loaded
+wait 6
+expect loaded 3
+expect visible 3
+quit

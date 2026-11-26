@@ -1,0 +1,6 @@
+Only the files that the build uses are kept, with the licence of each library.
+
+imgui       v1.93.0   https://github.com/ocornut/imgui      core, misc/cpp, backends for glfw, opengl3 and dx11
+implot      72de278   https://github.com/epezent/implot     master of 2026-10-25, without the demo and the example
+stb         4e9b368   https://github.com/nothings/stb       stb_image_write.h
+glfw        3.4       https://github.com/glfw/glfw          CMakeLists.txt, CMake, src, include
